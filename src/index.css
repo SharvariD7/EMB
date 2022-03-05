@@ -19,6 +19,13 @@ div.react-bootstrap-table{
   text-align: left;
 }
 
+div.react-bootstrap-table-pagination{
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  text-align: left;
+}
+
 div.react-bootstrap-table table{
   border: 2px solid #dee2e6;
 }
