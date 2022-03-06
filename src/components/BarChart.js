@@ -71,7 +71,7 @@ const BarChart = ({ chartData, chartTitle }) => {
                             max: 1,
                             min: 0,
                             ticks: {
-                                // Include a dollar sign in the ticks
+                                // Return exact decimal value as specified in stepSize without rounding the value
                                 callback: function (value, index, ticks) {
                                     return value.toPrecision(3);
                                 },
