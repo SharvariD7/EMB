@@ -1,12 +1,18 @@
 .navitem:global(.active) {
     background-color: #777777;
   }
+
+  .nav-tabs .nav-link, .nav-tabs .nav-item.show .nav-link
+  {
+    color: #000!important;
+  }
   
   .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link
   {
     color: #fff!important;
     background-color: #3489ca!important;
     border-color: #dee2e6 #dee2e6 #fff!important;
+    font-weight: bold;
   }
   
   td.expand-cell
