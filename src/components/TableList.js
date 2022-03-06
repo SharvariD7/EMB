@@ -67,7 +67,7 @@ const TableList = ({ diseases, title }) => {
 
     return (
         <div >
-            <h2 style={{ textAlignLast:'left', marginLeft:70}}> {title}</h2>
+            <h2 style={{ textAlignLast:'left', marginLeft:70, fontSize:'1.2rem', fontWeight:'bold', padding:15}}> {title}</h2>
             <BootstrapTable bootstrap4
                 keyField='target.approvedSymbol'
                 data={diseases}
