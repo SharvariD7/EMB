@@ -23,7 +23,7 @@ const TableList = ({ diseases, title }) => {
         text: 'Gene Name'
     }, {
         dataField: 'score',
-        text: 'Product ID'
+        text: 'Overall Association Score'
     }];
 
     const expandRow = {
