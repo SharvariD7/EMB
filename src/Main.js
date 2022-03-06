@@ -57,7 +57,6 @@ const Main = () => {
 
     return (
         <div className="main">
-            {/* <h2>Genes Associated with lung carcinoma</h2> */}
             {diseases && <TableList diseases={diseases} title="Genes associated with lung carcinoma" />}
         </div>
     );
